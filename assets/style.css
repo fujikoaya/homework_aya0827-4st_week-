@@ -18,7 +18,7 @@
     color: orange;
     font-family: 'Playfair Display', serif;
     font-size: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   
   .title span {
@@ -159,7 +159,7 @@
     margin-top: 100px;
 }
 
-h2{
+.title-a{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
 }
@@ -173,7 +173,7 @@ p{
     margin-bottom: 150px;
 }
 
-h3{
+.title-b{
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   text-align: center;
@@ -199,14 +199,14 @@ h3{
   margin-bottom: 100px;
 }
 
-@-webkit-keyframes cat-slide {
+/* @-webkit-keyframes cat-slide {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-100%);
   }
-}
+} */
 
 @keyframes cat-slide{
   from{
@@ -234,4 +234,212 @@ h3{
   opacity: 0.8;
   cursor: pointer;
 }
+/* ここからボタン */
+.button014 a {
+  background: #eee;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 240px;
+  padding: 10px 25px;
+  color: #313131;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+}
+.button014 a::before {
+content: '';
+position: absolute;
+top: -5px;
+left: -5px;
+width: calc(100% - 4px);
+height: calc(100% - 4px);
+border: 2px solid orange;
+transition: 0.2s;
+}
 
+.button014 a::after {
+content: '';
+width: 5px;
+height: 5px;
+border-top: 3px solid #333333;
+border-right: 3px solid #333333;
+transform: rotate(45deg);
+}
+
+.button014 a:hover::before {
+top: 0;
+left: 0;
+}
+
+.button014 a:hover {
+text-decoration: none;
+background-color: orange;
+}
+
+.footer{
+  text-align: center;
+  background-color: gray;
+  margin-top: 100px;
+}
+/* html2ページ */
+ .icon-left img{
+  width: auto;
+  height: 80px;
+  margin-right: 10px;
+  margin-top: 70px;
+} 
+
+.sub-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+h2{
+  font-size: 60px;
+  color: orange;
+  font-family: 'Playfair Display', serif;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.boder-top img{
+  width: auto;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.boder-top ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: gray;
+}
+
+.boder-top li{
+  margin-left: 40px;
+}
+  
+
+.title-c{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* html3ページ目 */
+.cicon-left img{
+  width: auto;
+  height: 60px;
+  margin: 30px 10px;
+}
+
+.icon-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ct{
+  display: flex;
+  justify-content: center;
+}
+
+.ct img{
+  margin-right: 30px;
+}
+
+.ct{
+  margin-top: 100px;
+}
+
+.at{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.sn{
+  max-width: auto;
+  height: 600px;
+}
+.title-d{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+.n1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.n1 img{
+  margin-right: 30px;
+}
+
+.box{
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+/* ３ページ目 */
+
+
+
+h3{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  margin-top: 50px;
+}
+
+.th{
+  text-align: center;
+}
+
+.sec-title{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+}
+#contact dd input,#contact dd textarea{
+  width: 50%;
+  border: solid 1px black;
+  padding: 10px;
+  margin-left: 250px;
+}
+
+#contact dd textarea{
+  padding: 50px;
+}
+
+#contact dt label{
+  margin-left: 100px;
+  padding-top: 100px;
+}
+
+#contact .button input{
+  width: 200px;
+  background-color: navy;
+  color: white; 
+  padding: 15px 0;
+  border: solid 1px navy;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button{
+  margin-left: 400px;
+}
