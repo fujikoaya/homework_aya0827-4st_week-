@@ -329,7 +329,15 @@ h2{
   font-weight: bold;
 }
 
-/* html3ページ目 */
+.readmore{
+  font-size: 15px;
+  border: solid 1px black;
+  text-align: center;
+  margin: 20px 100px;
+
+}
+
+/* html2ページ目 */
 .cicon-left img{
   width: auto;
   height: 60px;
@@ -341,6 +349,8 @@ h2{
   justify-content: center;
   align-items: center;
 }
+
+
 
 .ct{
   display: flex;
@@ -359,6 +369,10 @@ h2{
   display: flex;
   justify-content: center;
   margin-top: 100px;
+}
+
+.at img{
+  margin-right: 30px;
 }
 
 .sn{
@@ -390,8 +404,20 @@ h2{
 }
 
 /* ３ページ目 */
+.con{
+  border: solid 1px gray;
+  margin-bottom: 50px;
+}
+.con-wrap img{
+  width: 100%;
+  max-width: 1920%;
+  height: 600px;
+  object-fit: cover;
+}
 
-
+.con-wrap{
+  margin-bottom: 50px;
+}
 
 h3{
   font-size: 50px;
@@ -442,4 +468,49 @@ h3{
 
 .button{
   margin-left: 400px;
+}
+
+@media screen and (max-width:767px){
+  .ct{
+    display: block;
+  }
+  .ct img{
+    margin-left: 220px;
+  }
+
+  .ct-about{
+    margin-left: 200px;
+  }
+
+  .title-c{
+    margin-left: 90px;
+  }
+  
+  .at-about{
+    margin-left: 200px;
+  }
+  .readmore{
+  padding: 10px 100px;
+  margin-left: auto;
+  }
+
+ .at{
+  display: block;
+  }
+
+  .at img{
+    margin-left: 220px;
+  }
+
+  .sec-title{
+    margin-left: 120px;
+  }
+  .button{
+    margin-left: 20px;
+  }
+
+  .button{
+    margin-left: 300px;
+    padding: 10px 20px;
+  }
 }
